@@ -1,5 +1,5 @@
-cadquery==2.4.0
-cadquery-ocp==7.7.2
+cadquery
+cadquery-ocp
 casadi==3.6.4
 docutils==0.20.1
 ezdxf==1.1.4
@@ -7,7 +7,7 @@ fonttools==4.47.2
 multimethod==1.9.1
 nlopt==2.7.1
 nptyping==2.0.1
-numpy==1.26.3
+numpy
 path==16.9.0
 pyparsing==3.1.1
 typing_extensions==4.9.0
