@@ -18,4 +18,4 @@ palm_rests = [
     ),
 ]
 
-case_result = render_case(keys=keys, palm_rests=palm_rests, screw_holes=screw_holes, config=config)
+case_result = render_and_save_keyboard(keys=keys, palm_rests=palm_rests, screw_holes=screw_holes, config=config)
