@@ -63,14 +63,14 @@ class CaseConfig:
     switch_type: SwitchType = SwitchType.MX
     use_switch_holders: bool = True
 
-    case_thickness: float = 2  # 2.4
+    case_thickness: float = 1.8  # 2.4
 
     # Total height, including top and bottom thickness
     # MX: 11 = 5 switch holder (incl top thickness of 2) + 0.2 buffer + 1 socket bumps + 1.8 socket + 1 socket base +
     #   2 bottom thickness
     # Choc: 9 = 2.4 switch holder/top thickness (incl buffer of 0.2) + 4.2 usbc socket (disregard 1.2 socket bumps + 1.8 socket) +
     #   + 2.4 bottom thickness
-    case_base_height: float = 11  # 9
+    case_base_height: float = 11.5  # 9
 
     # Global clearance height
     clearance_height: float = 100
@@ -132,11 +132,11 @@ class KailhMXSocketConfig(SocketConfig):
     # Kailh socket outline, including solder pins
     front_flat_width: float = 9.50
 
-    right_flat_depth_in_front_of_solder_pin: float = 0.9
+    right_flat_depth_in_front_of_solder_pin: float = 0.8
     right_flat_depth_solder_pin: float = 2.6
     right_flat_depth_behind_solder_pin: float = 0.5
 
-    left_flat_depth_in_front_of_solder_pin: float = 0.4
+    left_flat_depth_in_front_of_solder_pin: float = 0.3
     left_flat_depth_behind_solder_pin: float = 1.2
 
     back_right_flat_width: float = 4.00

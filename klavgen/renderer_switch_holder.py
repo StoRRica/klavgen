@@ -11,7 +11,7 @@ from .utils import grow_yz, grow_z, union_list
 
 def render_switch_hole(case_config: CaseConfig, config: MXSwitchHolderConfig):
     wp = cq.Workplane("XY").workplane(
-        offset=-case_config.case_base_height + case_config.case_thickness
+        offset=-case_config.case_base_height + 2 + case_config.case_thickness
     )
 
     switch_hole = wp.box(

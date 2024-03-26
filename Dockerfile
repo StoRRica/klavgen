@@ -6,6 +6,6 @@ WORKDIR /usr/app/src
 
 COPY . ./
 RUN mkdir result
-RUN python ./generate_macropad.py
+RUN python ./generate_oppodox.py
 RUN mv *.stl result
 CMD ["echo", "1"] 
