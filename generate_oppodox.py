@@ -40,7 +40,7 @@ screw_holes = [  # Clockwise
     ScrewHole(x=143, y=-86, z=0),
     ScrewHole(x=145, y=-133.5, z=0),
     ScrewHole(x=86, y=-92, z=0),
-    ScrewHole(x=-3, y=-92, z=0),
+    ScrewHole(x=-3, y=-95, z=0),
 ]
 
 patches = [
@@ -83,9 +83,9 @@ render_and_save_keyboard(keys=keys,
                          controller=controller,
                          patches=patches,
                         #  case_extras=case_extras,
-                         texts=texts,
+                        #  texts=texts,
                          render_standard_components=True,
-                         components=[usbc_jack],
+                         # components=[usbc_jack],
                          config=config,
                          screw_holes=screw_holes
                          )
